@@ -1,0 +1,67 @@
+#server:
+#  port: 20001
+#
+#spring:
+#  devtools:
+#    restart:
+#      enabled: true
+#      additional-paths: src/main/java
+#      exclude: static/**
+#  sleuth:
+#    web:
+#      client:
+#        enabled: true #开启采集链路
+#    sampler:
+#      probability: 1.0 #生产环境默认0.1  测试环境可以改为1.0
+#  zipkin:
+#    base-url: http://localhost:9411/ #服务所在地址
+#  application:
+#    name: res-gateway
+#
+#  cloud:
+#    gateway:
+#      globalcors:
+#        cors-configurations:
+#          '[/**]':
+#            allowedOrigins: "*"
+#            allowedMethods: "*"
+#            allowedHeaders: "*"
+#            allowCredentials: false
+#      routes:
+#        - id: res-security
+#          uri: lb://res-security
+#          predicates:
+#            - Path=/ressecurity/**
+#        - id: res-order
+#          uri: lb://res-order
+#          predicates:
+#            - Path=/order/**
+#        - id: res-order
+#          uri: lb://res-order
+#          predicates:
+#            - Path=/cart/**
+#        - id: res-food
+#          uri: lb://res-food
+##          uri: http://localhost:9001
+#          predicates:
+#            - Path=/resfood/**
+#            - Method=GET,POST,PUT,DELETE
+##            - ServiceTimeBetween=上午06:00,下午11:00
+##            - After=2023-08-22T22:15:47.789-07:00[Asia/Shanghai]
+##          filters:
+##            - AddRequestHeader=token,123
+##            - MyTime=秒
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#        username: nacos
+#        password: nacos
+#        namespace: resTest
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#  endpoint:
+#    gateway:
+#      enabled: true # 默认值

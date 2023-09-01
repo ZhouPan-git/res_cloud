@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="testReactor" />
+        <module name="res-food" />
+        <module name="res-init" />
+        <module name="res-order" />
+        <module name="res-entity" />
+        <module name="res-web" />
+        <module name="test-predicate" />
+        <module name="testSentinel" />
+        <module name="res-api" />
+        <module name="res-gateway" />
+        <module name="res-security" />
+        <module name="testFactoryMethodPattern" />
+        <module name="test-feign" />
+        <module name="testBuilderPattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="res-api" target="1.8" />
+      <module name="res-entity" target="1.8" />
+      <module name="res-food" target="1.8" />
+      <module name="res-gateway" target="1.8" />
+      <module name="res-init" target="1.8" />
+      <module name="res-order" target="1.8" />
+      <module name="res-security" target="1.8" />
+      <module name="res-web" target="1.8" />
+      <module name="res_cloud" target="1.8" />
+      <module name="test-feign" target="1.8" />
+      <module name="test-predicate" target="1.8" />
+      <module name="testBuilderPattern" target="1.8" />
+      <module name="testFactoryMethodPattern" target="1.8" />
+      <module name="testReactor" target="1.8" />
+      <module name="testSentinel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="res-api" options="-parameters" />
+      <module name="res-entity" options="-parameters" />
+      <module name="res-food" options="-parameters" />
+      <module name="res-gateway" options="-parameters" />
+      <module name="res-init" options="-parameters" />
+      <module name="res-order" options="-parameters" />
+      <module name="res-security" options="-parameters" />
+      <module name="res-web" options="-parameters" />
+    </option>
+  </component>
+</project>

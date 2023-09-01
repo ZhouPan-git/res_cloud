@@ -1,0 +1,12 @@
+server:
+  port: 7777
+spring:
+  web:
+    resources:
+      static-locations: [classpath:/public/,classpath:/resources/,classpath:/META-INF/resources/,classpath:/static/]
+
+logging:
+  level:
+    root: info
+    com.yc: info
+    org.springframework.web: info

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/res-api/res-api.iml" filepath="$PROJECT_DIR$/res-api/res-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-entity/res-entity.iml" filepath="$PROJECT_DIR$/res-entity/res-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-food/res-food.iml" filepath="$PROJECT_DIR$/res-food/res-food.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-gateway/res-gateway.iml" filepath="$PROJECT_DIR$/res-gateway/res-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-init/res-init.iml" filepath="$PROJECT_DIR$/res-init/res-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-order/res-order.iml" filepath="$PROJECT_DIR$/res-order/res-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-security/res-security.iml" filepath="$PROJECT_DIR$/res-security/res-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/res-web/res-web.iml" filepath="$PROJECT_DIR$/res-web/res-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/res_cloud.iml" filepath="$PROJECT_DIR$/.idea/res_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-feign/test-feign.iml" filepath="$PROJECT_DIR$/test-feign/test-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-predicate/test-predicate.iml" filepath="$PROJECT_DIR$/test-predicate/test-predicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testBuilderPattern/testBuilderPattern.iml" filepath="$PROJECT_DIR$/testBuilderPattern/testBuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testFactoryMethodPattern/testFactoryMethodPattern.iml" filepath="$PROJECT_DIR$/testFactoryMethodPattern/testFactoryMethodPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testReactor/testReactor.iml" filepath="$PROJECT_DIR$/testReactor/testReactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testSentinel/testSentinel.iml" filepath="$PROJECT_DIR$/testSentinel/testSentinel.iml" />
+    </modules>
+  </component>
+</project>

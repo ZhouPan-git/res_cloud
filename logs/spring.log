@@ -1,0 +1,571 @@
+2023-09-01 17:15:16.493  INFO [res-food,,] 51012 --- [restartedMain] com.yc.resfoods.ResfoodApplication       : The following 1 profile is active: "test"
+2023-09-01 17:15:22.578  INFO [res-food,,] 51012 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=455f1b2c-d2ce-370a-9d1b-65320414a752
+2023-09-01 17:15:23.311  INFO [res-order,,] 50404 --- [restartedMain] com.yc.resfoods.OrderApp                 : The following 1 profile is active: "test"
+2023-09-01 17:15:24.616  INFO [res-food,,] 51012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2023-09-01 17:15:24.633  INFO [res-food,,] 51012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:15:24.633  INFO [res-food,,] 51012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:15:25.109  INFO [res-food,,] 51012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:15:25.109  INFO [res-food,,] 51012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8571 ms
+2023-09-01 17:15:25.899  INFO [res-order,,] 50404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-01 17:15:25.903  INFO [res-order,,] 50404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-01 17:15:25.940  INFO [res-order,,] 50404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-09-01 17:15:26.032  WARN [res-food,,] 51012 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:15:26.570  INFO [res-order,,] 50404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6177f91d-ddb6-3d46-ac78-7c9b53647d4e
+2023-09-01 17:15:26.866  INFO [res-food,,] 51012 --- [restartedMain] c.yc.resfoods.configs.MyDruidDataSource  : 编程式的数据源创建
+2023-09-01 17:15:27.322  INFO [res-security,,] 25420 --- [restartedMain] com.yc.resfoods.SecurityApp              : The following 1 profile is active: "test"
+2023-09-01 17:15:28.584  INFO [res-order,,] 50404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7001 (http)
+2023-09-01 17:15:28.600  INFO [res-order,,] 50404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:15:28.600  INFO [res-order,,] 50404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:15:28.905  INFO [res-order,,] 50404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:15:28.905  INFO [res-order,,] 50404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5510 ms
+2023-09-01 17:15:29.934  WARN [res-order,,] 50404 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:15:31.552  INFO [res-order,,] 50404 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-09-01 17:15:31.980  INFO [res-security,,] 25420 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c17cd9bf-b54b-36db-a365-0824e9440a9e
+2023-09-01 17:15:32.907  INFO [res-order,,] 50404 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:15:33.798  INFO [res-food,,] 51012 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:15:35.024  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:15:35.629  INFO [res-security,,] 25420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-09-01 17:15:35.650  INFO [res-security,,] 25420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:15:35.651  INFO [res-security,,] 25420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:15:36.431  INFO [res-security,,] 25420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:15:36.432  INFO [res-security,,] 25420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9068 ms
+2023-09-01 17:15:36.691  WARN [res-food,,] 51012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:15:37.004  INFO [res-security,,] 25420 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-09-01 17:15:37.816  INFO [res-security,,] 25420 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:15:39.453  WARN [res-food,,] 51012 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:15:39.805  WARN [res-security,,] 25420 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:15:39.888  INFO [res-food,,] 51012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2023-09-01 17:15:39.910  INFO [res-food,,] 51012 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:15:39.910  INFO [res-food,,] 51012 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:15:40.007  WARN [res-order,,] 50404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:15:40.152  INFO [res-order,,] 50404 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'res-food' URL not provided. Will try picking an instance via load-balancing.
+2023-09-01 17:15:40.312  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-food 172.20.85.12:9001 register finished
+2023-09-01 17:15:40.357  INFO [res-order,,] 50404 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'res-security' URL not provided. Will try picking an instance via load-balancing.
+2023-09-01 17:15:41.188  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:15:41.449  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.467  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.467  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.468  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.469  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.476  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.477  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.477  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.478  WARN [res-food,,] 51012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:41.569  INFO [res-food,,] 51012 --- [restartedMain] com.yc.resfoods.ResfoodApplication       : Started ResfoodApplication in 36.685 seconds (JVM running for 40.643)
+2023-09-01 17:15:41.660  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.689  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.694  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.698  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=tomcat.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.702  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.706  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.708  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:41.709  INFO [res-food,,] 51012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food, group=DEFAULT_GROUP
+2023-09-01 17:15:42.331  INFO [res-food,,] 51012 --- [RMI TCP Connection(3)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:15:42.331  INFO [res-food,,] 51012 --- [RMI TCP Connection(3)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:15:42.336  INFO [res-food,,] 51012 --- [RMI TCP Connection(3)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-01 17:15:42.434  INFO [res-food,,] 51012 --- [RMI TCP Connection(4)-172.20.85.12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:15:45.509  WARN [res-order,,] 50404 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:15:45.601  INFO [res-order,,] 50404 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:15:45.623  INFO [res-security,,] 25420 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:15:45.789  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:15:45.818  INFO [res-order,,] 50404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7001 (http) with context path ''
+2023-09-01 17:15:45.836  INFO [res-order,,] 50404 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:15:45.836  INFO [res-order,,] 50404 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:15:46.154  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-order 172.20.85.12:7001 register finished
+2023-09-01 17:15:46.327  INFO [res-security,,] 25420 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@629dd9fd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59c31a8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b8015b9, org.springframework.security.web.header.HeaderWriterFilter@e8e80db, org.springframework.security.web.authentication.logout.LogoutFilter@4956f454, com.yc.resfoods.filter.JwtRequestFilter@5bb3f18b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13714a07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3910462c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b121de8, org.springframework.security.web.session.SessionManagementFilter@136333b9, org.springframework.security.web.access.ExceptionTranslationFilter@c428691, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17474285]
+2023-09-01 17:15:46.661  INFO [res-order,,] 50404 --- [restartedMain] com.yc.resfoods.OrderApp                 : Started OrderApp in 35.086 seconds (JVM running for 40.496)
+2023-09-01 17:15:46.686  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:46.690  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:46.691  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:46.694  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:46.698  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:46.699  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order, group=DEFAULT_GROUP
+2023-09-01 17:15:46.701  WARN [res-security,,] 25420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:15:46.702  INFO [res-order,,] 50404 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:46.839  INFO [res-order,,] 50404 --- [RMI TCP Connection(1)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:15:46.839  INFO [res-order,,] 50404 --- [RMI TCP Connection(1)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:15:46.841  INFO [res-order,,] 50404 --- [RMI TCP Connection(1)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01 17:15:49.189  WARN [res-security,,] 25420 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:15:49.553  INFO [res-security,,] 25420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-09-01 17:15:49.570  INFO [res-security,,] 25420 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:15:49.571  INFO [res-security,,] 25420 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:15:49.843  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-security 172.20.85.12:8001 register finished
+2023-09-01 17:15:50.509  WARN [res-security,,] 25420 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:50.515  WARN [res-security,,] 25420 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:15:50.621  INFO [res-security,,] 25420 --- [restartedMain] com.yc.resfoods.SecurityApp              : Started SecurityApp in 32.273 seconds (JVM running for 37.167)
+2023-09-01 17:15:50.643  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:50.645  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:50.649  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:50.650  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:50.651  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security, group=DEFAULT_GROUP
+2023-09-01 17:15:50.656  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:50.660  INFO [res-security,,] 25420 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:15:50.821  INFO [res-security,,] 25420 --- [RMI TCP Connection(9)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:15:50.821  INFO [res-security,,] 25420 --- [RMI TCP Connection(9)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:15:50.825  INFO [res-security,,] 25420 --- [RMI TCP Connection(9)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-09-01 17:15:51.223  WARN [res-order,,] 50404 --- [boundedElastic-1] o.s.b.a.r.RedisReactiveHealthIndicator   : Redis health check failed
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6380
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:1117) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:509) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:103) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:86) ~[reactor-core-3.4.18.jar:3.4.18]
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:227) ~[reactor-core-3.4.18.jar:3.4.18]
+	at org.springframework.cloud.sleuth.instrument.reactor.ReactorSleuth.lambda$null$6(ReactorSleuth.java:327) ~[spring-cloud-sleuth-instrumentation-3.1.7.jar:3.1.7]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.4.18.jar:3.4.18]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.4.18.jar:3.4.18]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_65]
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6380
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:109) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	... 16 common frames omitted
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6380
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_65]
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$null$0(LettucePoolingConnectionProvider.java:97) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:70) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:571) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:298) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:223) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117) ~[lettuce-core-6.1.8.RELEASE.jar:6.1.8.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:103) ~[spring-data-redis-2.7.0.jar:2.7.0]
+	... 17 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6380
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_65]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_65]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_65]
+
+2023-09-01 17:16:39.761  INFO [res-food,05b80479e41d6686,cb286bc568c46f02] 51012 --- [http-nio-9001-exec-1] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:16:39.762  INFO [res-food,05b80479e41d6686,cb286bc568c46f02] 51012 --- [http-nio-9001-exec-1] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：null
+2023-09-01 17:16:40.164  INFO [res-food,05b80479e41d6686,cb286bc568c46f02] 51012 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 总记录数=12
+2023-09-01 17:16:40.164  INFO [res-food,05b80479e41d6686,cb286bc568c46f02] 51012 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 总页数=3
+2023-09-01 17:16:40.165  INFO [res-food,05b80479e41d6686,cb286bc568c46f02] 51012 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 当前页码=1
+2023-09-01 17:16:43.973  WARN [res-security,7a92e9682074c359,ddecb8f2b1c6ca63] 25420 --- [http-nio-8001-exec-1] com.yc.resfoods.filter.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2023-09-01 17:16:48.579 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/3 HTTP/1.1
+2023-09-01 17:16:48.579 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:16:48.579 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:16:48.579 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:16:48.579 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:16:48.718  INFO [res-food,20e2fdbb509515cb,cc4176b41d632c0a] 51012 --- [http-nio-9001-exec-2] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:16:48.718  INFO [res-food,20e2fdbb509515cb,cc4176b41d632c0a] 51012 --- [http-nio-9001-exec-2] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:16:48.744 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (164ms)
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:16:48 GMT
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":3,"fname":"酸辣鱼","normprice":42.0,"realprice":40.0,"detail":"营养丰富","fphoto":"500023.jpg","praise":null}}
+2023-09-01 17:16:48.745 DEBUG [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (140-byte body)
+2023-09-01 17:16:50.834 ERROR [res-order,20e2fdbb509515cb,f28e704c230fd939] 50404 --- [http-nio-7001-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6380] with root cause
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_65]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_65]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2023-09-01 17:16:51.869 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/3 HTTP/1.1
+2023-09-01 17:16:51.870 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:16:51.870 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:16:51.870 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:16:51.870 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:16:51.875  INFO [res-food,36c12835a25884d8,03fc7fed4975babe] 51012 --- [http-nio-9001-exec-3] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:16:51.875  INFO [res-food,36c12835a25884d8,03fc7fed4975babe] 51012 --- [http-nio-9001-exec-3] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:16:51.881 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (11ms)
+2023-09-01 17:16:51.881 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:16:51.881 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:16:51.881 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:16:51 GMT
+2023-09-01 17:16:51.882 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:16:51.882 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:16:51.882 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:16:51.882 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":3,"fname":"酸辣鱼","normprice":42.0,"realprice":40.0,"detail":"营养丰富","fphoto":"500023.jpg","praise":null}}
+2023-09-01 17:16:51.882 DEBUG [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (140-byte body)
+2023-09-01 17:16:53.934 ERROR [res-order,36c12835a25884d8,50df3e8c7acc03f7] 50404 --- [http-nio-7001-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6380] with root cause
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_65]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_65]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2023-09-01 17:16:57.208 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/3 HTTP/1.1
+2023-09-01 17:16:57.209 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:16:57.209 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:16:57.209 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:16:57.209 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:16:57.219  INFO [res-food,78d31abd6db38232,3bbe9555862a6d91] 51012 --- [http-nio-9001-exec-4] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:16:57.220  INFO [res-food,78d31abd6db38232,3bbe9555862a6d91] 51012 --- [http-nio-9001-exec-4] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:16:57.229 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (18ms)
+2023-09-01 17:16:57.229 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:16:57.229 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:16:57.229 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:16:57 GMT
+2023-09-01 17:16:57.229 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:16:57.230 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:16:57.230 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:16:57.230 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":3,"fname":"酸辣鱼","normprice":42.0,"realprice":40.0,"detail":"营养丰富","fphoto":"500023.jpg","praise":null}}
+2023-09-01 17:16:57.230 DEBUG [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (140-byte body)
+2023-09-01 17:16:59.282 ERROR [res-order,78d31abd6db38232,ebf08516e7c115e9] 50404 --- [http-nio-7001-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6380] with root cause
+
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_65]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_65]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2023-09-01 17:18:10.605  INFO [res-food,ad30f91170a4c611,514708dd0f52595a] 51012 --- [http-nio-9001-exec-9] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:18:10.606  INFO [res-food,ad30f91170a4c611,514708dd0f52595a] 51012 --- [http-nio-9001-exec-9] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：null
+2023-09-01 17:18:10.645  INFO [res-food,ad30f91170a4c611,514708dd0f52595a] 51012 --- [http-nio-9001-exec-9] com.yc.resfoods.biz.ResfoodBizImpl       : 总记录数=12
+2023-09-01 17:18:10.645  INFO [res-food,ad30f91170a4c611,514708dd0f52595a] 51012 --- [http-nio-9001-exec-9] com.yc.resfoods.biz.ResfoodBizImpl       : 总页数=3
+2023-09-01 17:18:10.645  INFO [res-food,ad30f91170a4c611,514708dd0f52595a] 51012 --- [http-nio-9001-exec-9] com.yc.resfoods.biz.ResfoodBizImpl       : 当前页码=1
+2023-09-01 17:18:16.570 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/3 HTTP/1.1
+2023-09-01 17:18:16.571 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:18:16.571 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:18:16.571 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:18:16.571 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:18:16.576  INFO [res-food,78dd239aedb80eb3,2f72b204d4155466] 51012 --- [http-nio-9001-exec-7] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:18:16.576  INFO [res-food,78dd239aedb80eb3,2f72b204d4155466] 51012 --- [http-nio-9001-exec-7] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:18:16.583 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (12ms)
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:18:16 GMT
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":3,"fname":"酸辣鱼","normprice":42.0,"realprice":40.0,"detail":"营养丰富","fphoto":"500023.jpg","praise":null}}
+2023-09-01 17:18:16.584 DEBUG [res-order,78dd239aedb80eb3,44828a95001f16a9] 50404 --- [http-nio-7001-exec-4] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (140-byte body)
+2023-09-01 17:18:17.044 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/3 HTTP/1.1
+2023-09-01 17:18:17.044 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:18:17.044 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:18:17.044 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:18:17.044 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:18:17.048  INFO [res-food,c40098eec9764908,d9e26b6003fba71d] 51012 --- [http-nio-9001-exec-8] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:18:17.048  INFO [res-food,c40098eec9764908,d9e26b6003fba71d] 51012 --- [http-nio-9001-exec-8] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (9ms)
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:18:16 GMT
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":3,"fname":"酸辣鱼","normprice":42.0,"realprice":40.0,"detail":"营养丰富","fphoto":"500023.jpg","praise":null}}
+2023-09-01 17:18:17.054 DEBUG [res-order,c40098eec9764908,ff0459d8ccb28661] 50404 --- [http-nio-7001-exec-7] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (140-byte body)
+2023-09-01 17:46:12.239  INFO [res-security,,] 32148 --- [restartedMain] com.yc.resfoods.SecurityApp              : The following 1 profile is active: "test"
+2023-09-01 17:46:14.379  INFO [res-security,,] 32148 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c17cd9bf-b54b-36db-a365-0824e9440a9e
+2023-09-01 17:46:15.473  INFO [res-security,,] 32148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-09-01 17:46:15.481  INFO [res-security,,] 32148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:46:15.482  INFO [res-security,,] 32148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:46:15.710  INFO [res-security,,] 32148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:46:15.710  INFO [res-security,,] 32148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3437 ms
+2023-09-01 17:46:16.371  INFO [res-security,,] 32148 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-09-01 17:46:17.518  INFO [res-security,,] 32148 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:46:20.769  WARN [res-security,,] 32148 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:46:27.445  INFO [res-security,,] 32148 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:46:27.664  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:46:28.705  INFO [res-security,,] 32148 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26a3d954, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66d4cdd5, org.springframework.security.web.context.SecurityContextPersistenceFilter@46303b28, org.springframework.security.web.header.HeaderWriterFilter@3455aa3, org.springframework.security.web.authentication.logout.LogoutFilter@5b12d147, com.yc.resfoods.filter.JwtRequestFilter@4aa5eb0c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c79db53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58118e2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c2e3bec, org.springframework.security.web.session.SessionManagementFilter@1fcd40db, org.springframework.security.web.access.ExceptionTranslationFilter@5f27028, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bfaa220]
+2023-09-01 17:46:29.371  WARN [res-security,,] 32148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:46:32.285  INFO [res-order,,] 53744 --- [restartedMain] com.yc.resfoods.OrderApp                 : The following 1 profile is active: "test"
+2023-09-01 17:46:32.935  WARN [res-security,,] 32148 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:46:33.727  INFO [res-security,,] 32148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-09-01 17:46:33.754  INFO [res-security,,] 32148 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:46:33.754  INFO [res-security,,] 32148 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:46:34.071  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-security 172.20.85.12:8001 register finished
+2023-09-01 17:46:35.040  INFO [res-order,,] 53744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-01 17:46:35.046  INFO [res-order,,] 53744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-01 17:46:35.090  INFO [res-order,,] 53744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-09-01 17:46:35.165  WARN [res-security,,] 32148 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:35.173  WARN [res-security,,] 32148 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:35.386  INFO [res-security,,] 32148 --- [restartedMain] com.yc.resfoods.SecurityApp              : Started SecurityApp in 27.314 seconds (JVM running for 29.909)
+2023-09-01 17:46:35.430  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:35.438  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:35.445  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:35.446  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:35.446  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security, group=DEFAULT_GROUP
+2023-09-01 17:46:35.451  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:35.457  INFO [res-security,,] 32148 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:35.845  INFO [res-order,,] 53744 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6177f91d-ddb6-3d46-ac78-7c9b53647d4e
+2023-09-01 17:46:36.139  INFO [res-food,,] 32012 --- [restartedMain] com.yc.resfoods.ResfoodApplication       : The following 1 profile is active: "test"
+2023-09-01 17:46:36.943  INFO [res-security,,] 32148 --- [RMI TCP Connection(6)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:46:36.943  INFO [res-security,,] 32148 --- [RMI TCP Connection(6)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:46:36.948  INFO [res-security,,] 32148 --- [RMI TCP Connection(6)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-09-01 17:46:38.049  INFO [res-order,,] 53744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7001 (http)
+2023-09-01 17:46:38.063  INFO [res-order,,] 53744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:46:38.064  INFO [res-order,,] 53744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:46:38.326  INFO [res-order,,] 53744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:46:38.326  INFO [res-order,,] 53744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5981 ms
+2023-09-01 17:46:39.053  WARN [res-order,,] 53744 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:46:39.699  INFO [res-food,,] 32012 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=455f1b2c-d2ce-370a-9d1b-65320414a752
+2023-09-01 17:46:40.459  INFO [res-order,,] 53744 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-09-01 17:46:41.770  INFO [res-order,,] 53744 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:46:42.312  INFO [res-food,,] 32012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2023-09-01 17:46:42.328  INFO [res-food,,] 32012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:46:42.328  INFO [res-food,,] 32012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:46:42.646  INFO [res-food,,] 32012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:46:42.646  INFO [res-food,,] 32012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6454 ms
+2023-09-01 17:46:43.569  WARN [res-food,,] 32012 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:46:44.455  INFO [res-food,,] 32012 --- [restartedMain] c.yc.resfoods.configs.MyDruidDataSource  : 编程式的数据源创建
+2023-09-01 17:46:46.811  WARN [res-order,,] 53744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:46:46.864  INFO [res-order,,] 53744 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'res-food' URL not provided. Will try picking an instance via load-balancing.
+2023-09-01 17:46:46.966  INFO [res-order,,] 53744 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'res-security' URL not provided. Will try picking an instance via load-balancing.
+2023-09-01 17:46:47.432  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:46:48.475  INFO [res-food,,] 32012 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:46:48.932  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:46:49.601  WARN [res-food,,] 32012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:46:50.132  WARN [res-order,,] 53744 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:46:50.254  INFO [res-order,,] 53744 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:46:50.433  INFO [res-order,,] 53744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7001 (http) with context path ''
+2023-09-01 17:46:50.456  INFO [res-order,,] 53744 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:46:50.456  INFO [res-order,,] 53744 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:46:50.770  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-order 172.20.85.12:7001 register finished
+2023-09-01 17:46:51.394  INFO [res-order,,] 53744 --- [restartedMain] com.yc.resfoods.OrderApp                 : Started OrderApp in 26.711 seconds (JVM running for 30.331)
+2023-09-01 17:46:51.430  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:51.433  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:51.434  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:51.437  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:51.443  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:51.444  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order, group=DEFAULT_GROUP
+2023-09-01 17:46:51.447  INFO [res-order,,] 53744 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:52.078  WARN [res-food,,] 32012 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:46:52.298  INFO [res-order,,] 53744 --- [RMI TCP Connection(3)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:46:52.299  INFO [res-order,,] 53744 --- [RMI TCP Connection(3)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:46:52.304  INFO [res-order,,] 53744 --- [RMI TCP Connection(3)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-01 17:46:52.652  INFO [res-food,,] 32012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2023-09-01 17:46:52.677  INFO [res-food,,] 32012 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:46:52.678  INFO [res-food,,] 32012 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:46:53.053  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-food 172.20.85.12:9001 register finished
+2023-09-01 17:46:53.959  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.974  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.974  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.974  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.975  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.978  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.979  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.979  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:53.979  WARN [res-food,,] 32012 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:46:54.057  INFO [res-food,,] 32012 --- [restartedMain] com.yc.resfoods.ResfoodApplication       : Started ResfoodApplication in 25.188 seconds (JVM running for 28.694)
+2023-09-01 17:46:54.080  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.085  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.092  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.097  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=tomcat.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.102  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.107  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.109  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food.yml, group=DEFAULT_GROUP
+2023-09-01 17:46:54.110  INFO [res-food,,] 32012 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food, group=DEFAULT_GROUP
+2023-09-01 17:46:54.850  INFO [res-food,,] 32012 --- [RMI TCP Connection(15)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:46:54.850  INFO [res-food,,] 32012 --- [RMI TCP Connection(15)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:46:54.852  INFO [res-food,,] 32012 --- [RMI TCP Connection(15)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01 17:46:54.922  INFO [res-food,,] 32012 --- [RMI TCP Connection(14)-172.20.85.12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:47:27.220  INFO [res-food,65a83dd6df174f33,f44f764683216ee1] 32012 --- [http-nio-9001-exec-1] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:47:27.220  INFO [res-food,65a83dd6df174f33,f44f764683216ee1] 32012 --- [http-nio-9001-exec-1] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：null
+2023-09-01 17:47:27.755  INFO [res-food,65a83dd6df174f33,f44f764683216ee1] 32012 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 总记录数=12
+2023-09-01 17:47:27.756  INFO [res-food,65a83dd6df174f33,f44f764683216ee1] 32012 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 总页数=3
+2023-09-01 17:47:27.756  INFO [res-food,65a83dd6df174f33,f44f764683216ee1] 32012 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 当前页码=1
+2023-09-01 17:47:34.881 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/3 HTTP/1.1
+2023-09-01 17:47:34.882 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:47:34.882 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:47:34.882 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:47:34.882 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:47:35.066  INFO [res-food,14c5fbd1827fd1af,ea9ec716b2dc82ba] 32012 --- [http-nio-9001-exec-2] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:47:35.066  INFO [res-food,14c5fbd1827fd1af,ea9ec716b2dc82ba] 32012 --- [http-nio-9001-exec-2] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:47:35.087 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (204ms)
+2023-09-01 17:47:35.088 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:47:35.089 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:47:35.089 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:47:35 GMT
+2023-09-01 17:47:35.089 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:47:35.089 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:47:35.089 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:47:35.090 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":3,"fname":"酸辣鱼","normprice":42.0,"realprice":40.0,"detail":"营养丰富","fphoto":"500023.jpg","praise":null}}
+2023-09-01 17:47:35.091 DEBUG [res-order,14c5fbd1827fd1af,2877a2aa1ffc2a3f] 53744 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (140-byte body)
+2023-09-01 17:47:37.965 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/5 HTTP/1.1
+2023-09-01 17:47:37.966 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:47:37.966 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:47:37.966 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:47:37.966 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:47:37.971  INFO [res-food,156eb33a3ff37783,35053f8a90b853c2] 32012 --- [http-nio-9001-exec-3] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:47:37.971  INFO [res-food,156eb33a3ff37783,35053f8a90b853c2] 32012 --- [http-nio-9001-exec-3] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:47:37.975 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (9ms)
+2023-09-01 17:47:37.975 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:47:37.975 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:47:37.975 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:47:37 GMT
+2023-09-01 17:47:37.976 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:47:37.976 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:47:37.976 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:47:37.976 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":5,"fname":"西红柿蛋汤","normprice":12.0,"realprice":10.0,"detail":"营养丰富","fphoto":"500025.jpg","praise":null}}
+2023-09-01 17:47:37.976 DEBUG [res-order,156eb33a3ff37783,a507c1e8b7f63048] 53744 --- [http-nio-7001-exec-2] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (146-byte body)
+2023-09-01 17:54:28.885  INFO [res-food,,] 37772 --- [restartedMain] com.yc.resfoods.ResfoodApplication       : The following 1 profile is active: "test"
+2023-09-01 17:54:33.961  INFO [res-food,,] 37772 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=455f1b2c-d2ce-370a-9d1b-65320414a752
+2023-09-01 17:54:34.478  INFO [res-security,,] 16248 --- [restartedMain] com.yc.resfoods.SecurityApp              : The following 1 profile is active: "test"
+2023-09-01 17:54:36.733  INFO [res-food,,] 37772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9001 (http)
+2023-09-01 17:54:36.770  INFO [res-food,,] 37772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:54:36.771  INFO [res-food,,] 37772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:54:37.280  INFO [res-food,,] 37772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:54:37.280  INFO [res-food,,] 37772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8341 ms
+2023-09-01 17:54:38.797  WARN [res-food,,] 37772 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:54:39.218  INFO [res-order,,] 38084 --- [restartedMain] com.yc.resfoods.OrderApp                 : The following 1 profile is active: "test"
+2023-09-01 17:54:39.723  INFO [res-security,,] 16248 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c17cd9bf-b54b-36db-a365-0824e9440a9e
+2023-09-01 17:54:40.064  INFO [res-food,,] 37772 --- [restartedMain] c.yc.resfoods.configs.MyDruidDataSource  : 编程式的数据源创建
+2023-09-01 17:54:41.844  INFO [res-order,,] 38084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-01 17:54:41.848  INFO [res-order,,] 38084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-01 17:54:41.911  INFO [res-order,,] 38084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2023-09-01 17:54:41.984  INFO [res-security,,] 16248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-09-01 17:54:42.002  INFO [res-security,,] 16248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:54:42.003  INFO [res-security,,] 16248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:54:42.357  INFO [res-security,,] 16248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:54:42.357  INFO [res-security,,] 16248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7848 ms
+2023-09-01 17:54:42.699  INFO [res-order,,] 38084 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6177f91d-ddb6-3d46-ac78-7c9b53647d4e
+2023-09-01 17:54:42.872  INFO [res-security,,] 16248 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-09-01 17:54:43.848  INFO [res-security,,] 16248 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:54:44.755  INFO [res-order,,] 38084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7001 (http)
+2023-09-01 17:54:44.770  INFO [res-order,,] 38084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01 17:54:44.770  INFO [res-order,,] 38084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-09-01 17:54:45.213  INFO [res-order,,] 38084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01 17:54:45.214  INFO [res-order,,] 38084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5959 ms
+2023-09-01 17:54:46.005  INFO [res-food,,] 37772 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:54:46.284  WARN [res-order,,] 38084 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:54:46.768  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:54:47.047  WARN [res-security,,] 16248 --- [pool-3-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "Empty JSON_V2 message"}]
+2023-09-01 17:54:47.505  INFO [res-order,,] 38084 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-09-01 17:54:47.870  WARN [res-food,,] 37772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:54:48.569  INFO [res-order,,] 38084 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:54:51.613  WARN [res-food,,] 37772 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:54:52.009  INFO [res-food,,] 37772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9001 (http) with context path ''
+2023-09-01 17:54:52.027  INFO [res-food,,] 37772 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:54:52.027  INFO [res-food,,] 37772 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:54:52.263  INFO [res-security,,] 16248 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:54:52.336  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-food 172.20.85.12:9001 register finished
+2023-09-01 17:54:52.378  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:54:52.966  INFO [res-security,,] 16248 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57ffb345, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b92e3fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@c222e95, org.springframework.security.web.header.HeaderWriterFilter@584bbb82, org.springframework.security.web.authentication.logout.LogoutFilter@637a1b5d, com.yc.resfoods.filter.JwtRequestFilter@5ac1b333, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d38bec8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e325b9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f119286, org.springframework.security.web.session.SessionManagementFilter@40d018, org.springframework.security.web.access.ExceptionTranslationFilter@66c4e32e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e359dbe]
+2023-09-01 17:54:53.299  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.313  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.313  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.314  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.314  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.322  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.322  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.323  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.323  WARN [res-food,,] 37772 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:53.405  INFO [res-food,,] 37772 --- [restartedMain] com.yc.resfoods.ResfoodApplication       : Started ResfoodApplication in 34.93 seconds (JVM running for 38.109)
+2023-09-01 17:54:53.406  WARN [res-security,,] 16248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:54:53.435  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.440  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.442  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.448  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=tomcat.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.453  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.461  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.465  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:53.466  INFO [res-food,,] 37772 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-food, group=DEFAULT_GROUP
+2023-09-01 17:54:54.083  INFO [res-food,,] 37772 --- [RMI TCP Connection(4)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:54:54.083  INFO [res-food,,] 37772 --- [RMI TCP Connection(4)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:54:54.095  INFO [res-food,,] 37772 --- [RMI TCP Connection(4)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2023-09-01 17:54:54.174  INFO [res-food,,] 37772 --- [RMI TCP Connection(3)-172.20.85.12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-09-01 17:54:54.242  WARN [res-order,,] 38084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01 17:54:54.358  INFO [res-order,,] 38084 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'res-food' URL not provided. Will try picking an instance via load-balancing.
+2023-09-01 17:54:54.566  INFO [res-order,,] 38084 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'res-security' URL not provided. Will try picking an instance via load-balancing.
+2023-09-01 17:54:55.502  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-09-01 17:54:57.243  WARN [res-security,,] 16248 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:54:57.724  INFO [res-security,,] 16248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-09-01 17:54:57.750  INFO [res-security,,] 16248 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:54:57.751  INFO [res-security,,] 16248 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:54:58.204  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-security 172.20.85.12:8001 register finished
+2023-09-01 17:54:59.344  WARN [res-security,,] 16248 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:59.350  WARN [res-security,,] 16248 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-09-01 17:54:59.541  INFO [res-security,,] 16248 --- [restartedMain] com.yc.resfoods.SecurityApp              : Started SecurityApp in 36.276 seconds (JVM running for 40.604)
+2023-09-01 17:54:59.596  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:59.607  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:59.613  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:59.614  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:59.614  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-security, group=DEFAULT_GROUP
+2023-09-01 17:54:59.620  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:59.623  INFO [res-security,,] 16248 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:54:59.667  WARN [res-order,,] 38084 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-01 17:54:59.846  INFO [res-order,,] 38084 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-09-01 17:55:00.064  INFO [res-order,,] 38084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7001 (http) with context path ''
+2023-09-01 17:55:00.089  INFO [res-order,,] 38084 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-01 17:55:00.089  INFO [res-order,,] 38084 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-01 17:55:00.427  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP res-order 172.20.85.12:7001 register finished
+2023-09-01 17:55:01.025  INFO [res-security,,] 16248 --- [RMI TCP Connection(6)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:55:01.025  INFO [res-security,,] 16248 --- [RMI TCP Connection(6)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:55:01.032  INFO [res-security,,] 16248 --- [RMI TCP Connection(6)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-09-01 17:55:01.368  INFO [res-order,,] 38084 --- [restartedMain] com.yc.resfoods.OrderApp                 : Started OrderApp in 33.228 seconds (JVM running for 37.378)
+2023-09-01 17:55:01.393  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=sentinel.yml, group=DEFAULT_GROUP
+2023-09-01 17:55:01.398  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=zipkin.yml, group=DEFAULT_GROUP
+2023-09-01 17:55:01.402  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order.yml, group=DEFAULT_GROUP
+2023-09-01 17:55:01.445  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=mysql.yml, group=DEFAULT_GROUP
+2023-09-01 17:55:01.456  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=redis.yml, group=DEFAULT_GROUP
+2023-09-01 17:55:01.458  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order, group=DEFAULT_GROUP
+2023-09-01 17:55:01.477  INFO [res-order,,] 38084 --- [restartedMain] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=res-order-test.yml, group=DEFAULT_GROUP
+2023-09-01 17:55:01.507  INFO [res-order,,] 38084 --- [RMI TCP Connection(4)-172.20.85.12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01 17:55:01.507  INFO [res-order,,] 38084 --- [RMI TCP Connection(4)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01 17:55:01.510  INFO [res-order,,] 38084 --- [RMI TCP Connection(4)-172.20.85.12] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-09-01 17:56:30.526  INFO [res-food,07456db3504fe67c,0d9f4ff4cde0d32a] 37772 --- [http-nio-9001-exec-1] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:56:30.526  INFO [res-food,07456db3504fe67c,0d9f4ff4cde0d32a] 37772 --- [http-nio-9001-exec-1] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：null
+2023-09-01 17:56:30.973  INFO [res-food,07456db3504fe67c,0d9f4ff4cde0d32a] 37772 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 总记录数=12
+2023-09-01 17:56:30.974  INFO [res-food,07456db3504fe67c,0d9f4ff4cde0d32a] 37772 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 总页数=3
+2023-09-01 17:56:30.974  INFO [res-food,07456db3504fe67c,0d9f4ff4cde0d32a] 37772 --- [http-nio-9001-exec-1] com.yc.resfoods.biz.ResfoodBizImpl       : 当前页码=1
+2023-09-01 17:56:34.581 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> GET http://res-food/resfood/findById/4 HTTP/1.1
+2023-09-01 17:56:34.582 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: gzip
+2023-09-01 17:56:34.582 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] Accept-Encoding: deflate
+2023-09-01 17:56:34.583 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] source: order-source
+2023-09-01 17:56:34.583 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] ---> END HTTP (0-byte body)
+2023-09-01 17:56:34.702  INFO [res-food,b8d92318ada7492a,3c1dab27a2d0a6f8] 37772 --- [http-nio-9001-exec-4] c.y.r.c.CustomerRequestOriginParser      : 解析请求头中的origin
+2023-09-01 17:56:34.702  INFO [res-food,b8d92318ada7492a,3c1dab27a2d0a6f8] 37772 --- [http-nio-9001-exec-4] c.y.r.c.CustomerRequestOriginParser      : 请求来源为：order-source
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- HTTP/1.1 200 (133ms)
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] connection: keep-alive
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] content-type: application/json
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] date: Fri, 01 Sep 2023 09:56:34 GMT
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] keep-alive: timeout=60
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] transfer-encoding: chunked
+2023-09-01 17:56:34.717 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] 
+2023-09-01 17:56:34.718 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] {"code":1,"obj":{"fid":4,"fname":"鲁粉","normprice":12.0,"realprice":10.0,"detail":"营养丰富","fphoto":"500024.jpg","praise":null}}
+2023-09-01 17:56:34.718 DEBUG [res-order,b8d92318ada7492a,d27756da114c068b] 38084 --- [http-nio-7001-exec-1] com.yc.api.ResfoodApi                    : [ResfoodApi#findById] <--- END HTTP (137-byte body)

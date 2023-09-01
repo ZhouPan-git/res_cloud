@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06ef7f67-23bb-403f-8d1d-f1eb9abe1612" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/res-gateway/META-INF/res-gateway.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res_cloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-08-29T041338.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/data-all.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/resVue数据访问API.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/schema-all.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/技术小结.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-api/res-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-api/res-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-entity/res-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-entity/res-entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-food/res-food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-food/res-food.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-init/res-init.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-init/res-init.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-order/res-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-order/res-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-security/res-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-security/res-security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res-web/res-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/res-web/res-web.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MavenRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Un1rldFr9OpXhacGeuf0KtTXDe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.GateWayApp">
+    <configuration name="ApiMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.ApiMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-init" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.AppMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-entity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.EntityApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.GateWayApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.IndexApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.resfoods.OrderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResfoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-food" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.resfoods.ResfoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="res-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.resfoods.SecurityApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06ef7f67-23bb-403f-8d1d-f1eb9abe1612" name="Default Changelist" comment="" />
+      <created>1693560732635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693560732635</updated>
+      <workItem from="1693560743174" duration="532000" />
+      <workItem from="1693561305201" duration="627000" />
+      <workItem from="1693561964678" duration="330000" />
+      <workItem from="1693562321712" duration="215000" />
+      <workItem from="1693562906482" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/res" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1693560947430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1693560947430" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1693560669798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1693560669798" />
+    <state x="579" y="313" key="Github.CreateGistDialog" timestamp="1693561604721">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="313" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1693561604721" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1693562295277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1693562295277" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1693562295274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1693562295274" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1693562295273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1693562295273" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1693562295276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1693562295276" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1693562295282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1693562295282" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1693562295280">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1693562295280" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1693562295279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1693562295279" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1693562295281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1693562295281" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1693561460879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1693561460878" />
+  </component>
+</project>
